@@ -1,0 +1,58 @@
+nav {
+    background: #1a252f;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+}
+.card {
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+
+}
+button {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+body {
+    padding-top: 60px; /* navbar balandligiga qarab */
+}
+    @media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    form, .card {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
